@@ -1,226 +1,205 @@
-<!DOCTYPE html>
+<!DOCTYPE html> <!-- Declare the document as HTML5 -->
 <html>
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Metadata and external resources -->
+    <meta charset="utf-8"> <!-- Character encoding -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Ensure compatibility with older IE versions -->
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Responsive layout on mobile devices -->
 
-    <title>Ocean Bootstrap 4.0 simple theme</title>
-<!--
-Ocean Theme
-http://www.templatemo.com/tm-484-ocean
--->
+    <title>Graduation Week: A Video Diary</title> <!-- Browser tab title -->
 
-    <!-- load stylesheets -->
-    
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400"><!-- Google web font "Open Sans", https://www.google.com/fonts/specimen/Open+Sans -->
-    <link rel="stylesheet" href="font-awesome-4.5.0/css/font-awesome.min.css"> <!-- Font Awesome, https://fortawesome.github.io/Font-Awesome/ -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">                       <!-- Bootstrap style, http://v4-alpha.getbootstrap.com/ -->
-    <link rel="stylesheet" href="css/templatemo-style.css">                    <!-- Templatemo style -->
+    <!-- Load external stylesheets for layout and aesthetics -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">
+    <!-- Google Fonts: Open Sans -->
+    <link rel="stylesheet" href="font-awesome-4.5.0/css/font-awesome.min.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Bootstrap CSS for responsive grid and components -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Custom styles specific to this website -->
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" rel="stylesheet">
 
 </head>
 
-    <body>
-        
-        <div style="background-color: rgba(255, 255, 255, 0.6); position: fixed; top: 0; width: 100%; z-index: 1000;">
-            <nav style="display: flex; justify-content: center; padding: 12px 0;">
-              <ul style="list-style: none; display: flex; gap: 40px; padding: 0; margin: 0;">
+<body>
+    <!-- Fixed top navigation bar with section links -->
+    <div style="background-color: rgba(255, 255, 255, 0.6); position: fixed; top: 0; width: 100%; z-index: 1000;">
+        <nav style="display: flex; justify-content: center; padding: 12px 0;">
+            <ul style="list-style: none; display: flex; gap: 40px; padding: 0; margin: 0;">
+                <!-- Anchor links to different sections -->
                 <li><a href="#home" style="text-decoration: none; color: #333;">Home</a></li>
                 <li><a href="#about" style="text-decoration: none; color: #333;">About</a></li>
                 <li><a href="#video" style="text-decoration: none; color: #333;">Video</a></li>
                 <li><a href="#wish" style="text-decoration: none; color: #333;">Make A Wish</a></li>
                 <li><a href="#contact" style="text-decoration: none; color: #333;">Contact</a></li>
-              </ul>
-            </nav>
-          </div>
-          
-  
+            </ul>
+        </nav>
+    </div>
 
-        <div class="container-fluid">
-            
-            <div class="row"> 
-
-                <section id="home" class="tm-section-intro">
-                    
-                    <div style="height: 70px;"></div>
-                    <!-- <div class="seed-container"></div>  -->
-                    <img src="img/background.png" alt="Background" style="
-                    position: absolute;
-                    top: 0;
-                    left: 0;
-                    width: 100%;
-                    height: auto;
-                    z-index: -1;
-                    ">
-
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                        <div class="tm-wrapper-center home-hero">
-                            <h1 class="tm-section-intro-title">Grad Week:</h1>
-                            <!-- <a href="#tm-section-2" class="tm-btn-white-big">Explore</a> -->
-                        </div>            
-                    </div>
-                </section>    
-
-            </div>
-
-            
-
-            <div class="row">
-                
-                <section id="about" class="tm-section-padding tm-2-col-img-text tm-2-col-img-lg-right " style="padding-bottom: 12.5rem;">
-                    
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 tm-2-col-img">                    
-                        <img src="img/about.png" alt="Image" class="img-fluid">
-                    </div>
-
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 tm-2-col-text">
-                        <h2 class="tm-2-col-text-title">Graduation Week: A Video Diary</h2>
-                        <p class="tm-2-col-text-description">
-                            This video captures the real, unscripted emotions of graduation week — the joy, chaos, quiet moments, and everything in between. It’s not a polished production, but a reflection of how it truly felt: friends hugging, families arriving, last walks across campus. No narration, no agenda — just our people, in our space, saying goodbye.
-                          </p>
-                        <!-- <a href="#" class="tm-bordered-btn">Read More</a> -->
-                    </div>
-                    
-                </section>
-
-            </div> <!-- row -->
-
-            
-
-            <!-- About -->
-            <div class="row tm-section tm-orange-bg-row"> <!-- changed class name -->
-
-            <section id="video">
-                <div style="height: 60px;"></div>
-
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-xs-center">
-                <h2 class="tm-section-title">Ma'a Salama</h2>
-                <p class="tm-section-subtitle">
-                    A short video capturing the moments, laughter, and embraces that marked our final days together.
-                </p>
-
-                <div class="video-container" style="margin-top: 3rem;">
-                    <iframe 
-                    src="https://drive.google.com/file/d/1NT1d1YXART2EZOUrPCEBcdtbrWP8Ttw2/preview" 
-                    width="640" height="480" 
-                    allow="autoplay">
-                    </iframe>
+    <div class="container-fluid"> <!-- Main fluid container that spans full width -->
+        <div class="row">
+            <!-- Home Section (Intro with background image) -->
+            <section id="home" class="tm-section-intro overlay-hero">
+                <div class="hero-image-container">
+                  <img src="img/background.png" alt="Graduation Background" class="hero-overlay-img">
+                  <div class="hero-text-overlay">
+                    <h1 class="hero-title-on-img hero-title-container">Graduation Week: A Video Diary</h1>
+                  </div>
                 </div>
+              </section>
+              
+              
+              
+        </div>
+
+        <div class="row">
+            <!-- About Section -->
+            <section id="about" class="tm-section-padding tm-2-col-img-text tm-2-col-img-lg-right" style="padding-bottom: 12.5rem;">
+                <!-- Left image column -->
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 tm-2-col-img">
+                    <img src="img/about.png" alt="Image" class="img-fluid ">
+                </div>
+                <!-- Right text column -->
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 tm-2-col-text">
+                    <h2 class="tm-2-col-text-title">About the Film, Dandellions & Wishes </h2>
+                    <p class="tm-2-col-text-description">
+                        Graduation Week: A Video Diary captures two moments side by side. One is vibrant and full of life: graduation week, with its flashing cameras, shouted names, embraces, tears, and laughter. It’s the energy of something ending and something else beginning.
+
+The other moment comes a week later. The same places, now still. Palm trees unmoving, the buildings quiet, the air calm. The camera returns to where everything happened, and just waits.
+
+By layering these two states — the commotion and the calm — the film becomes a way to hold onto what’s already slipping past. It doesn’t explain, it simply notices. It says: we were here, and it meant something.
+
+The wish section follows that same feeling. It’s here for anything you want to release: a memory, a thank you, a hope for what’s next. If you feel like sharing, there’s a form below where you can write a wish. It won’t be shown, just quietly received.
+
+Like blowing on a dandelion: you don’t need to say it out loud. You just send it off and let the wind take it from there.</p>
                 </div>
             </section>
+        </div>
 
-            </div>
-            <div class="row" id="tm-section-2">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                    <div class="seed-container"></div>
-                    <!-- slider -->
-                    <section  id="wish">
-                        <div style="height: 150px;"></div>
-                        <div id="tmCarousel" class="carousel slide tm-carousel" data-ride="carousel" data-interval="false" style="padding-bottom: 7rem;"> <!-- If you want to make the carousel auto play, remove data-interval="false" -->
+        <div class="row tm-section tm-orange-bg-row">
+            <!-- Video Section -->
+            <section id="video">
+                <div style="height: 60px;"></div> <!-- Spacer -->
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-xs-center">
+                    <h2 class="tm-section-title">Ma'a Salama</h2>
+                    <p class="tm-section-subtitle">A short video capturing the moments, laughter, and embraces that marked our final days together.</p>
 
-                            <ol class="carousel-indicators">
-                                <li data-target="#tmCarousel" data-slide-to="0" class="active"></li>
-                                <li data-target="#tmCarousel" data-slide-to="1" class=""></li>
-                                <li data-target="#tmCarousel" data-slide-to="2" class=""></li>
-                            </ol>
-
-                            <div class="carousel-inner" role="listbox">
-                            
-                                <div class="carousel-item active">
-                                    <div class="carousel-content">
-                                        <div>
-                                            <h2 class="tm-carousel-item-title">Time can flow unexpectedly fast</h2>
-                                            <p class="tm-carousel-item-text">Finishing up finals, welcoming families, and packing your whole life in<br>
-                                            a suitcase can feel overwhelming, shocking, and scary.<br>
-                                            It is good to take a moment to reflect.</p>
-                                        </div>
-                                    </div>                               
-                                </div>
-
-                                <div class="carousel-item">
-                                    <div class="carousel-content">
-                                        <div>
-                                            <h2 class="tm-carousel-item-title">Reflect and Wish</h2>
-                                            <p class="tm-carousel-item-text">Take a moment to be in the present, and determine what you wish for yourself,<br>
-                                            for the future you, after leaving university.<br>
-                                            Wish it away!</p>
-                                        </div>
-                                    </div>                                
-                                </div>
-
-                                <div class="carousel-item">
-                                    <div class="carousel-content">
-                                        <div>
-                                            <h2 class="tm-carousel-item-title">Send It Forward</h2>
-                                            <p class="tm-carousel-item-text">Make a wish for your loved ones, friends, and classmate<br>
-                                            Think about where you want to see everyone <br>
-                                            Send in your wish for them using the form below.</p>
-                                        </div>
-                                    </div>                                
-                                </div>
-
-                            </div>
-                            
-                        </div>                    
-                    </section>
+                    <!-- Embedded video from Google Drive -->
+                    <div class="video-container" style="margin-top: 3rem;">
+                        <iframe 
+                            src="https://drive.google.com/file/d/1NT1d1YXART2EZOUrPCEBcdtbrWP8Ttw2/preview"
+                            width="640" height="480" allow="autoplay">
+                        </iframe>
+                    </div>
                 </div>
-            </div> <!-- row -->
+            </section>
+        </div>
 
-            <div class="row tm-section-final">
-                
-                <section id="contact" class="tm-section-contact">
-                    
-                
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-7 col-xl-7">
-                        <div class="tm-contact-header-left">
-                            <h2 class="tm-section-title">Keep in touch</h2>
-                            <p>Send your queries, favorite moments of graduation and more!</p>
-                        </div>
-                        <form action="index.html" method="post" class="tm-contact-form">                                
-                            <div class="form-group col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 tm-form-group-left">
-                                <input type="text" id="contact_name" name="contact_name" class="form-control" placeholder="Name"  required/>
-                            </div>
-                            <div class="form-group col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 tm-form-group-right">
-                                <input type="email" id="contact_email" name="contact_email" class="form-control" placeholder="Email"  required/>
-                            </div>
-                            <div class="form-group">
-                                <input type="text" id="contact_subject" name="contact_subject" class="form-control" placeholder="Subject"  required/>
-                            </div>
-                            <div class="form-group">
-                                <textarea id="contact_message" name="contact_message" class="form-control" rows="6" placeholder="Message" required></textarea>
-                            </div>
-                        
-                            <button type="submit" class="btn tm-bordered-btn pull-xs-right">Submit</button>                          
-                        </form>   
-                    </div> <!-- col -->
-                    
-                    <div class="tm-contact-right">
-                        <div style="height: 70px;"></div>
-                        <img src="img/profile.png" alt="Profile Photo" style="width: 180px; height: 210px; border-radius: 50%; margin-bottom: 1rem; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+        <!-- Wish Section: carousel with reflection slides -->
+        <div class="row" id="tm-section-2">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <div class="seed-container"></div> <!-- Seeds animation inserted via JS -->
+                <section id="wish">
+                    <div style="height: 150px;"></div>
+                    <!-- Bootstrap carousel setup -->
+                    <div id="tmCarousel" class="carousel slide tm-carousel" data-ride="carousel" data-interval="false" style="padding-bottom: 7rem;">
 
-                        <h3 class="tm-contact-title">Website by Irem Naz Celen</h3>
-                        <p class="tm-contact-info">Class of 2025 from NYU Abu Dhabi<br>
-                            now based in Istanbul, Turkiye.
-                        </p>
-                        <p class="tm-contact-info"> 
-                            Email: <a href="mailto:iremnaz.celen@nyu.edu">iremnaz.celen@nyu.edu</a><br>
-                            
-                        </p>
-                        
-                        <div class="tm-social-icons-container">
-                            <a href="https://www.facebook.com/iremnaz.celen.5/" class="tm-social-icon-link"><i class="fa fa-facebook tm-social-icon"></i></a>
-                            <a href="https://www.instagram.com/iremnazcelen/" class="tm-social-icon-link"><i class="fa fa-instagram tm-social-icon"></i></a>
-                            <a href="https://www.linkedin.com/in/irem-naz-%C3%A7elen-328859274/" class="tm-social-icon-link"><i class="fa fa-linkedin tm-social-icon"></i></a>
+                        <!-- Carousel indicators (dots) -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#tmCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#tmCarousel" data-slide-to="1"></li>
+                            <li data-target="#tmCarousel" data-slide-to="2"></li>
+                        </ol>
+
+                        <!-- Carousel slides -->
+                        <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item active">
+                                <div class="carousel-content">
+                                    <h2 class="tm-carousel-item-title">Time can flow unexpectedly fast</h2>
+                                    <p class="tm-carousel-item-text">Time doesn’t always make announcements. It moves softly, even through the biggest moments. <br>
+                                         And then suddenly — it’s over. <br>
+                                        This page invites you to step outside of that rush. <br>
+                                        To take a breath and linger, in the same way the film does.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="carousel-content">
+                                    <h2 class="tm-carousel-item-title">Reflect and Wish</h2>
+                                    <p class="tm-carousel-item-text">Let the drifting dandelions remind you of what’s light, and worth releasing. <br>
+                                        Maybe you want to name something <br>
+                                        — a person, a memory, a piece of gratitude. <br>
+                                        Maybe it’s just a feeling that doesn’t fit anywhere else.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="carousel-content">
+                                    <h2 class="tm-carousel-item-title">Send It Forward</h2>
+                                    <p class="tm-carousel-item-text">There’s no format, no prompt.<br>
+                                         Just a quiet space to leave something behind, or send something ahead.<br>
+                                        Write a wish. Not for what comes next — but for what mattered while it lasted.<br>
+                                        Send it in using the form below, we are excited to hear your voice.</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    
-                      
                 </section>
-
             </div>
+        </div>
 
-        <!-- Wrapping container -->
+        <!-- Contact Section -->
+        <div class="row tm-section-final">
+            <section id="contact" class="tm-section-contact">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-7 col-xl-7">
+                    <div class="tm-contact-header-left">
+                        <h2 class="tm-section-title">Keep in touch</h2>
+                        <p>Send your queries, favorite moments of graduation, wishes for the future,<br>
+                             for youself and more!</p>
+                    </div>
+
+                    <!-- Contact form -->
+                    <form action="index.html" method="post" class="tm-contact-form">
+                        <!-- Two-column layout for name and email -->
+                        <div class="form-group col-md-6 tm-form-group-left">
+                            <input type="text" id="contact_name" name="contact_name" class="form-control" placeholder="Name" required/>
+                        </div>
+                        <div class="form-group col-md-6 tm-form-group-right">
+                            <input type="email" id="contact_email" name="contact_email" class="form-control" placeholder="Email" required/>
+                        </div>
+
+                        <!-- Single column fields -->
+                        <div class="form-group">
+                            <input type="text" id="contact_subject" name="contact_subject" class="form-control" placeholder="Subject" required/>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="contact_message" name="contact_message" class="form-control" rows="6" placeholder="Message" required></textarea>
+                        </div>
+
+                        <!-- Submit button -->
+                        <button type="submit" class="btn tm-bordered-btn pull-xs-right">Submit</button>
+                    </form>
+                </div>
+
+                <!-- Contact info and image -->
+                <div class="tm-contact-right">
+                    <div style="height: 70px;"></div>
+                    <img src="img/profile.png" alt="Profile Photo" style="width: 180px; height: 210px; border-radius: 50%; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+                    <h3 class="tm-contact-title">Website by Irem Naz Celen</h3>
+                    <p class="tm-contact-info">Class of 2025 from NYU Abu Dhabi<br>now based in Istanbul, Turkiye.</p>
+                    <p class="tm-contact-info">Email: <a href="mailto:iremnaz.celen@nyu.edu">iremnaz.celen@nyu.edu</a></p>
+
+                    <!-- Social media links -->
+                    <div class="tm-social-icons-container">
+                        <a href="https://www.facebook.com/iremnaz.celen.5/" class="tm-social-icon-link"><i class="fa fa-facebook tm-social-icon"></i></a>
+                        <a href="https://www.instagram.com/iremnazcelen/" class="tm-social-icon-link"><i class="fa fa-instagram tm-social-icon"></i></a>
+                        <a href="https://www.linkedin.com/in/irem-naz-%C3%A7elen-328859274/" class="tm-social-icon-link"><i class="fa fa-linkedin tm-social-icon"></i></a>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Dandelion visuals (SVGs) layered across the bottom for aesthetic flair -->
         <div class="dandelion-chaos-container">
+            <!-- Each image represents a randomly positioned dandelion -->
             <img src="img/dandellions.svg" class="chaotic-dandelion" style="left: 1%; bottom: 0; height: 160px;">
             <img src="img/dandellions.svg" class="chaotic-dandelion" style="left: 5%; bottom: 18px; height: 130px;">
             <img src="img/dandellions.svg" class="chaotic-dandelion" style="left: 9%; bottom: -5px; height: 190px;">
@@ -244,76 +223,52 @@ http://www.templatemo.com/tm-484-ocean
             </div>
                   
 
-        </div> <!-- container-fluid -->   
+        </div> <!-- End of container-fluid -->
 
-        <!-- load JS files -->
-        <script src="js/jquery-1.11.3.min.js"></script>             <!-- jQuery, https://jquery.com/download/ -->
-        <script src="https://www.atlasestateagents.co.uk/javascript/tether.min.js"></script> <!-- Tether for Bootstrap, http://stackoverflow.com/questions/34567939/how-to-fix-the-error-error-bootstrap-tooltips-require-tether-http-github-h -->
-        <script src="js/bootstrap.min.js"></script>                 <!-- Bootstrap, http://v4-alpha.getbootstrap.com/ -->
-        <script src="js/jquery.touchSwipe.min.js"></script>         <!-- http://labs.rampinteractive.co.uk/touchSwipe/demos/ -->
+        <!-- JS libraries for interaction and animation -->
+        <script src="js/jquery-1.11.3.min.js"></script>
+        <script src="https://www.atlasestateagents.co.uk/javascript/tether.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.touchSwipe.min.js"></script>
         <script src="js/main.js"></script>
-
-        <script>     
-       
-            $(document).ready(function(){
-
-                /* Smooth Scrolling
-                 * https://css-tricks.com/snippets/jquery/smooth-scrolling/
-                --------------------------------------------------------------*/
-                $('a[href*="#"]:not([href="#"])').click(function() {
-                    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
-                        && location.hostname == this.hostname) {
-                        
-                        var target = $(this.hash);
-                        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-                        
-                        if (target.length) {
-                            
-                            $('html, body').animate({
-                                scrollTop: target.offset().top
-                            }, 1000);
-                            return false;
-                        }
+    
+        <script>
+        // Wait until the DOM is fully loaded
+        $(document).ready(function(){
+            // Smooth scroll to anchor links
+            $('a[href*="#"]:not([href="#"])').click(function() {
+                if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
+                    && location.hostname == this.hostname) {
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+                    if (target.length) {
+                        $('html, body').animate({ scrollTop: target.offset().top }, 1000);
+                        return false;
                     }
-                }); 
-                
-                /* Enable swiping for tablets and mobile
-                 * http://lazcreative.com/blog/adding-swipe-support-to-bootstrap-carousel-3-0/
-                 ---------------------------------------------------------------------------------*/
-                if($(window).width() <= 991) {
-                    $(".carousel-inner").swipe( {
-                        //Generic swipe handler for all directions
-                        swipeLeft:function(event, direction, distance, duration, fingerCount) {
-                            $(this).parent().carousel('next'); 
-                        },
-                        swipeRight: function() {
-                            $(this).parent().carousel('prev'); 
-                        },
-                        //Default is 75px, set to 0 for demo so any distance triggers swipe
-                        threshold:0
-                    });
-                }  
-
-                /* Handle window resize */
-                $(window).resize(function(){
-                    if($(window).width() <= 991) {
-                        $(".carousel-inner").swipe( {
-                            //Generic swipe handler for all directions
-                            swipeLeft:function(event, direction, distance, duration, fingerCount) {
-                                $(this).parent().carousel('next'); 
-                            },
-                            swipeRight: function() {
-                                $(this).parent().carousel('prev'); 
-                            },
-                            //Default is 75px, set to 0 for demo so any distance triggers swipe
-                            threshold:0
-                        });
-                     }
-                });              
-                           
+                }
             });
-
-        </script>             
-
-</body>
-</html>
+    
+            // Enable swipe gestures for carousel on mobile
+            if($(window).width() <= 991) {
+                $(".carousel-inner").swipe({
+                    swipeLeft: function() { $(this).parent().carousel('next'); },
+                    swipeRight: function() { $(this).parent().carousel('prev'); },
+                    threshold: 0
+                });
+            }
+    
+            // Reapply swipe gestures on window resize
+            $(window).resize(function(){
+                if($(window).width() <= 991) {
+                    $(".carousel-inner").swipe({
+                        swipeLeft: function() { $(this).parent().carousel('next'); },
+                        swipeRight: function() { $(this).parent().carousel('prev'); },
+                        threshold: 0
+                    });
+                }
+            });
+        });
+        </script>
+    </body>
+    </html>
+ 
